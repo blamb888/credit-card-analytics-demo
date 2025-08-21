@@ -4,11 +4,35 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## 🎯 Project Overview
+## 🌐 **Live Interactive Dashboard**
 
-A comprehensive data science project demonstrating advanced analytics capabilities using synthetic credit card transaction data. This project showcases customer segmentation, location-based insights, predictive modeling, and interactive visualizations - directly applicable to SaaS products in real estate, retail, and commercial development.
+### **[👆 View Live Demo](https://brandon-credit-card-analytics.streamlit.app/)**
 
-**Business Value:** Transform raw transaction data into actionable insights that drive customer retention, regional expansion, and revenue optimization strategies.
+Experience the complete interactive business intelligence dashboard with:
+- **Real-time filtering** by customer segments and regions
+- **Executive KPI metrics** tracking $51.7M in transaction volume
+- **Interactive RFM analysis** with drill-down capabilities  
+- **Strategic insights** with actionable business recommendations
+
+### **Dashboard Highlights:**
+
+#### **💰 Executive Overview**
+- Total Revenue: **$51.7M** across 500,000 transactions
+- Customer Base: **10,000** customers with detailed segmentation
+- Top Segment: **VIP Champions** (1,332 customers generating $9.3M)
+- Regional Opportunity: **$864 spending gap** between best/worst regions
+
+#### **🎯 Interactive Analytics**
+- **RFM Segmentation**: Scatter plot analysis with hover details
+- **Regional Performance**: Geographic spending comparison with filtering
+- **Trend Analysis**: Monthly revenue and transaction volume patterns
+- **Business Insights**: AI-driven recommendations for growth strategies
+
+#### **📊 Professional Features**
+- **Dynamic Filtering**: Real-time updates based on segment/region selection
+- **Mobile Responsive**: Professional design across all devices
+- **Executive Ready**: Clean visualizations suitable for C-suite presentations
+- **Data Drill-Down**: Interactive exploration of customer behaviors
 
 ---
 
@@ -65,13 +89,17 @@ credit_card_analytics/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/blamb888/credit-card-analytics-demo.git
+git clone git@github.com:blamb888/credit-card-analytics-demo.git
 cd credit-card-analytics
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the complete pipeline
+# Run the interactive dashboard
+streamlit run streamlit_dashboard.py
+# Opens at http://localhost:8501
+
+# Alternative: Run complete pipeline
 python main.py
 ```
 
