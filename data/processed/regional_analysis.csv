@@ -1,0 +1,5 @@
+region,Total_Spending,Avg_Transaction,Transaction_Count,Unique_Customers,Spending_Per_Customer
+Rural,12055344.63,94.22,127953,2563,4703.61
+Suburban,18565192.75,106.3,174642,3487,5324.12
+Urban_High_Income,8529523.58,111.47,76519,1532,5567.57
+Urban_Mid_Income,12520276.69,103.57,120886,2418,5177.95

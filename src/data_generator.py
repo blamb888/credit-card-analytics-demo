@@ -131,10 +131,11 @@ class CreditCardDataGenerator:
             latitude, longitude = self._generate_location(customer['region'])
             
             # Generate transaction hour with realistic distribution
-            hour = np.random.choice(
-                range(6, 23), 
-                p=[0.03, 0.05, 0.08, 0.10, 0.12, 0.15, 0.15, 0.12, 0.10, 0.05, 0.03, 0.02]
-            )
+            hours = list(range(6, 23))  # 6 AM to 10 PM (17 hours)
+            hour_probs = [0.03, 0.05, 0.08, 0.10, 0.12, 0.15, 0.15, 0.12, 0.10, 0.08, 0.06, 0.04, 0.03, 0.03, 0.02, 0.02, 0.02]
+            # Normalize probabilities to ensure they sum to 1
+            hour_probs = np.array(hour_probs) / np.sum(hour_probs)
+            hour = np.random.choice(hours, p=hour_probs)
             
             transactions.append({
                 'transaction_id': f"TXN_{i+1:07d}",

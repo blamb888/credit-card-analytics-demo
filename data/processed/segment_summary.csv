@@ -1,0 +1,4 @@
+segment,customer_count,monetary_value_mean,monetary_value_median,monetary_value_std,frequency_mean,frequency_median,recency_mean,recency_median,avg_transaction_value_mean,avg_transaction_value_median,age_mean,income_mean,total_value,percentage_of_customers
+New_Customers,6549,4609.09,4633.5,741.12,48.44,48.0,14.81,10.0,95.59,96.23,36.61,53205.75,30184930.41,65.5
+Potential_Loyalists,2119,5773.89,5743.1,493.43,48.82,49.0,13.21,9.0,118.58,117.13,52.6,90840.53,12234872.91,21.2
+VIP_Champions,1332,6944.83,6814.26,683.98,59.56,59.0,11.6,8.0,116.94,115.85,49.55,86618.82,9250513.56,13.3
